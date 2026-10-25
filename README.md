@@ -119,8 +119,11 @@ python investigate_cli.py
 
 ## 📖 Comprehensive Documentation
 
-A publication-grade manual is included in this repository:
-- **[MuleGuard_Platform_User_Manual_and_Solution_Blueprint.pdf](MuleGuard_Platform_User_Manual_and_Solution_Blueprint.pdf)**: 6-page technical report covering problem breakdown, mathematical formulations, architecture diagrams, step-by-step user manual, and visual screenshots.
+A publication-grade technical manual can be generated on-demand:
+```bash
+python generate_muleguard_pdf.py
+```
+This produces `MuleGuard_Platform_User_Manual_and_Solution_Blueprint.pdf` covering problem breakdown, mathematical formulations, architecture diagrams, step-by-step user manual, and visual screenshots.
 
 ---
 
