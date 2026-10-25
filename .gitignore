@@ -1,0 +1,42 @@
+# Python
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+csharp_gateway/bin/
+csharp_gateway/obj/
+
+# Visual Studio & IDEs
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Temporary & Lock files
+~$*
+_$*
+pdf_pages_preview/
+*.log
+scratch/
